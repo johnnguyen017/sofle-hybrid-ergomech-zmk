@@ -1,8 +1,8 @@
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, '&caps_word', A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, N, M, ',', ., /, \, MUTE, LCTRL, LALT, LEFT WIN, lower, SPACE, ENTER, raise, RCTRL, '=', ESC, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPSLOCK, A, S, D, F, G, H, J, K, L, ;, '''',
+    LSHFT, Z, X, C, V, B, N, M, ',', ., /, '=', MUTE, LCTRL, LALT, LEFT WIN, lower, SPACE, ENTER, raise, RCTRL, '=', ESC, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
   lower:
-  - {t: ▽, type: trans}
+  - F12
   - F1
   - F2
   - F3
@@ -24,7 +24,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '0'
+  - PRINTSCREEN
   - F12
   - {t: ▽, type: trans}
   - '!'
@@ -46,8 +46,8 @@ layers:
   - '}'
   - '['
   - ']'
-  - ;
-  - ':'
+  - '['
+  - ']'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
